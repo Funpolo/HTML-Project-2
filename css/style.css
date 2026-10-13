@@ -17,7 +17,7 @@ h1,h2,h3,h4,h5,h6,a,li
 /*--------------Nav Styling-------------------------*/ 
 header
 {
-    background-color: rgb(194, 164, 33);
+    background-color: rgb(111, 73, 73); 
     height: 150px;
 }
 
@@ -31,11 +31,11 @@ header > nav > menu
     line-height: 140px; 
 }
 
-header > nav > menu > li{
+header > nav > menu > li > a  
+{
     float: left;
-    list-style: none;
-    padding: 0%;
-    
+    color: white;
+    text-decoration: none;
 }
 
 /*--------------------------------Logo Styling-------------------------------------------------*/ 
@@ -59,10 +59,19 @@ main > section > h1 + video
     padding-left: 1.2rem;
 }
 
-
+#video{
+    background-color: rgb(175, 154, 154);
+}
 /*--------------Text Styling--------------*/ 
-main > section + section
+
+.lyrics 
 {
+    background-color: rgb(215, 204, 204);
     padding-left: 1.2rem;
     padding-top: 4rem;
+}
+
+/*--------Footer Styling--------*/ 
+footer{
+    background-color: rgb(248, 247, 247);
 }
