@@ -31,11 +31,18 @@ header > nav > menu
     line-height: 140px; 
 }
 
-header > nav > menu > li > a  
+header > nav > menu > li   
 {
     float: left;
     color: white;
+    padding: 0, 5px ;
+}
+
+header > nav > menu > li > a 
+{
     text-decoration: none;
+    margin-right: 12px;
+    color: white;
 }
 
 /*--------------------------------Logo Styling-------------------------------------------------*/ 
