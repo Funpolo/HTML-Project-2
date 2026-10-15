@@ -1,4 +1,4 @@
-body
+ body
 {
     padding: 0%;
     margin: 0%;
@@ -13,6 +13,9 @@ h1,h2,h3,h4,h5,h6,a,li
 {
     font-family: Expletus Sans, sans-serif;
 } 
+.filler{
+    font-family: Eater, sans-serif;
+}
 
 /*--------------Nav Styling-------------------------*/ 
 header
@@ -76,7 +79,26 @@ main > section > h1 + video
     background-color: rgb(215, 204, 204);
     padding-left: 1.2rem;
     padding-top: 4rem;
+    font-weight: bold;
 }
+
+.yelling{
+    font-weight: 900;
+}
+.whispering{
+    font-weight: 100;
+}
+
+.lyrics > p > mark{
+    background-color: transparent;
+    font-size: larger;
+}
+
+.lyrics > p:nth-child(2n+6) > mark{
+    font-size: smaller;
+}
+
+
 
 /*--------Footer Styling--------*/ 
 footer{
