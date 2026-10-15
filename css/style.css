@@ -7,6 +7,8 @@ p{
     font-family: Cinzel Decorative, sans-serif;
     font-size: 1.2rem;
     text-decoration: none;
+    letter-spacing: 1.5px;
+    margin-bottom: 0%;
     
 }
 h1,h2,h3,h4,h5,h6,a,li 
@@ -15,6 +17,7 @@ h1,h2,h3,h4,h5,h6,a,li
 } 
 .filler{
     font-family: Eater, sans-serif;
+   
 }
 
 /*--------------Nav Styling-------------------------*/ 
@@ -38,7 +41,7 @@ header > nav > menu > li
 {
     float: left;
     color: white;
-    padding: 0, 5px ;
+    padding: 0,5px ;
 }
 
 header > nav > menu > li > a 
@@ -68,12 +71,19 @@ main > section > h1 + video
 {
     padding-left: 1.2rem;
 }
+main > section{
+    padding-top: 4rem   ;
+}
 
 #video{
     background-color: rgb(175, 154, 154);
 }
 /*--------------Text Styling--------------*/ 
 
+main > section > h1
+{
+    text-align: center;
+}
 .lyrics 
 {
     background-color: rgb(215, 204, 204);
@@ -99,8 +109,3 @@ main > section > h1 + video
 }
 
 
-
-/*--------Footer Styling--------*/ 
-footer{
-    background-color: rgb(248, 247, 247);
-}
