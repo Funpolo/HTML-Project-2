@@ -3,6 +3,7 @@
     padding: 0%;
     margin: 0%;
 }
+/*Giving each element it's font to start working*/ 
 p{
     font-family: Cinzel Decorative, sans-serif;
     font-size: 1.2rem;
@@ -15,6 +16,7 @@ h1,h2,h3,h4,h5,h6,a,li
 {
     font-family: Expletus Sans, sans-serif;
 } 
+
 .filler{
     font-family: Eater, sans-serif;
    
@@ -26,6 +28,8 @@ header
     background-color: rgb(111, 73, 73); 
     height: 150px;
 }
+
+/*Setting up the nav so it's on the left and has no effects on it while being white*/ 
 
 header > nav > menu 
 {
@@ -52,6 +56,7 @@ header > nav > menu > li > a
 }
 
 /*--------------------------------Logo Styling-------------------------------------------------*/ 
+/*putting the logo at the left side of the web page*/ 
 header > div
 {
     width: auto;
@@ -79,7 +84,7 @@ main > section{
     background-color: rgb(175, 154, 154);
 }
 /*--------------Text Styling--------------*/ 
-
+/* just making the hero text centered*/ 
 main > section > h1
 {
     text-align: center;
@@ -92,6 +97,7 @@ main > section > h1
     font-weight: bold;
 }
 
+/*Changing the weight of the two other types of lyrics to better match the singing*/ 
 .yelling{
     font-weight: 900;
 }
@@ -99,11 +105,14 @@ main > section > h1
     font-weight: 100;
 }
 
+/* for the yelling lyrics, this targets them so that they look like they are yelled (no shit)*/ 
 .lyrics > p > mark{
     background-color: transparent;
     font-size: larger;
 }
 
+/*for the non parts but extened we are doing the same thing but just making them smaller and doing it in a differnt way than before*/ 
+/*so what this line means is that we are starting from the 6th child p element (which is the +6 on the right) and then we are gonna go through the childeren of the lyrics class by 2 (that is what the 2n mean) this was not something we learned in class however I had to look it up online to better help me do this assigment*/ 
 .lyrics > p:nth-child(2n+6) > mark{
     font-size: smaller;
 }
